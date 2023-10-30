@@ -1,0 +1,33 @@
+
+.first-color{
+    opacity: 0.04;
+    background: var(--GRA-Blue2, linear-gradient(169deg, #3984F4 -6.01%, #0CD3FF 36.87%, #2F7CF0 78.04%, #0E65E8 103.77%));
+    
+}
+.text-color{
+    background: var(--GRA-Blue, linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.font{
+    
+    font-size: 20px;
+    font-weight: 600;
+}
+.nef-logo {
+    display: inline-block;
+    border: 2px solid #468ef9 ;
+  border-radius: 5.885px ;
+  background: var(
+    --GRA-Blue,
+    linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%)
+
+  );
+  width: 42.667px;
+height: 44.778px;
+flex-shrink: 0;
+}
+
